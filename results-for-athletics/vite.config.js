@@ -1,14 +1,34 @@
-import path from 'path'
+import { resolve } from 'path';
+import { defineConfig } from 'vite';
 
-export default {
-    root: path.resolve(__dirname, 'src'),
-    resolve: {
-      alias: {
-        '~bootstrap': path.resolve(__dirname, 'node_modules/bootstrap'),
+const root = resolve(__dirname, 'src');
+const outDir = resolve(__dirname, 'dist');
+
+
+export default defineConfig({
+  root,
+  build:{
+    outDir,
+    emptyOutDir: true,
+    rollupOptions: {
+      input: {
+        main: resolve(root, 'inder.html'),
+        about: resolve(root, 'about', 'index.html'),
       }
-    },
-    server: {
-      port: 8080,
-      hot: true
     }
-  }
+  },
+  resolve: {
+    alias: {
+      '~bootstrap': resolve(__dirname, 'node_modules/bootstrap'),
+    }
+  },
+  server: {
+    port: 8080,
+    hot: true,
+    fs: {
+      strict: false
+    }
+  },
+  
+  
+});
