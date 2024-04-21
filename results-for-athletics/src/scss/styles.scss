@@ -1,1 +1,44 @@
 @import "~bootstrap/scss/bootstrap";
+
+$primary-color: #C3002D;
+$secondary-color: #00C396;
+$neutral-color: #A5A6A7;
+
+$R100-primary-color: #F3BDC9;
+$R200-primary-color: #E78EA2;
+$R300-primary-color: #DB5E7B;
+$R400-primary-color: #CF2F54;
+$R600-primary-color: #75001B;
+$R700-primary-color: #4E0012;
+$R800-primary-color: #270009;
+
+$B100-primary-color: #CCF3EA;
+$B200-primary-color: #B2EDDF;
+$B300-primary-color: #99E7D5;
+$B400-primary-color: #66DBC0;
+$B600-primary-color: #009C78;
+$B700-primary-color: #00755A;
+$B800-primary-color: #003A2D;
+$B900-primary-color: #00271E;
+
+$G100-primary-color: #FFFFFF;
+$G200-primary-color: #EDEEF0;
+$G300-primary-color: #DCDDDF;
+$G400-primary-color: #A5A6A7;
+$G500-primary-color: #48494A;
+$G600-primary-color: #2B2C2D;
+$G700-primary-color: #161618;
+
+$small-shadow:  0px 1px 4px 0px rgba(0, 0, 0, 0.10);
+$regular-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.12);
+$larger-shadow: 0px 8px 35px 0px rgba(0, 0, 0, 0.16);
+
+$padding-sm: 16px;
+$padding: 24px;
+$padding-lg: 32px;
+
+$base-space: 8px;
+$small-space: 48px;
+$medium-space: 64px;
+$large-space: 96px;
+$extra-large-space: 192px;
