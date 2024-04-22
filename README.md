@@ -10,7 +10,7 @@ Install the project with npm
 
 ```bash
   npm install
-  npm run dev
+  npm start
 ```
     
 ## Authors
