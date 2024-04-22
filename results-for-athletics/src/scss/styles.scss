@@ -12,22 +12,22 @@ $R600-primary-color: #75001B;
 $R700-primary-color: #4E0012;
 $R800-primary-color: #270009;
 
-$B100-primary-color: #CCF3EA;
-$B200-primary-color: #B2EDDF;
-$B300-primary-color: #99E7D5;
-$B400-primary-color: #66DBC0;
-$B600-primary-color: #009C78;
-$B700-primary-color: #00755A;
-$B800-primary-color: #003A2D;
-$B900-primary-color: #00271E;
+$B100-secondary-color: #CCF3EA;
+$B200-secondary-color: #B2EDDF;
+$B300-secondary-color: #99E7D5;
+$B400-secondary-color: #66DBC0;
+$B600-secondary-color: #009C78;
+$B700-secondary-color: #00755A;
+$B800-secondary-color: #003A2D;
+$B900-secondary-color: #00271E;
 
-$G100-primary-color: #FFFFFF;
-$G200-primary-color: #EDEEF0;
-$G300-primary-color: #DCDDDF;
-$G400-primary-color: #A5A6A7;
-$G500-primary-color: #48494A;
-$G600-primary-color: #2B2C2D;
-$G700-primary-color: #161618;
+$G100-neutral-color: #FFFFFF;
+$G200-neutral-color: #EDEEF0;
+$G300-neutral-color: #DCDDDF;
+$G400-neutral-color: #A5A6A7;
+$G500-neutral-color: #48494A;
+$G600-neutral-color: #2B2C2D;
+$G700-neutral-color: #161618;
 
 $small-shadow:  0px 1px 4px 0px rgba(0, 0, 0, 0.10);
 $regular-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.12);
@@ -42,3 +42,23 @@ $small-space: 48px;
 $medium-space: 64px;
 $large-space: 96px;
 $extra-large-space: 192px;
+
+.btn-primary{
+    background-color: $secondary-color;
+    color: $G200-neutral-color;
+    border-color: $secondary-color;
+
+}
+
+.btn-primary:hover{
+    
+    background-color: $B600-secondary-color;
+    color: $G200-neutral-color;
+    border-color: $B600-secondary-color;
+
+}
+
+.btn-primary:active{
+    background-color: $B800-secondary-color !important;
+    
+}
